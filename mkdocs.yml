@@ -1,0 +1,19 @@
+site_name: Douglas G. Oechsler Doks
+docs/:
+nav:
+ - Home: index.md
+ - Bacula: bacula.md
+ - Baculum: baculum.md
+
+theme:
+  language: pt-BR
+  locale: pt_BR
+  name: bootstrap  # simplex #pulse #lux  #gitbook  #sandstone # ivory #materia  #spacelab #readthedocs
+  nav_style: light
+  font: noto #heebo # ubuntu
+  code: inconsolata
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+
